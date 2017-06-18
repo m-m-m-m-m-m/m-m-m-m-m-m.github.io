@@ -1,0 +1,26 @@
+.logo{
+    display: block;
+    width: 100%;
+    transform: scaleX(0.8);
+
+    color:#464547;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 20vw;
+    letter-spacing: -0.5vw;
+    text-align: center;
+}
+
+.logo:before{
+    content: "<";
+}
+
+.logo:after{
+    content: ">";
+}
+
+.logo:before, .logo:after{
+    color: #39C2D7;
+    margin: 0 1vw;
+    font-size: 0.95em;
+}
