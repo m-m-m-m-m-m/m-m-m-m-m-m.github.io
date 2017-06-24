@@ -1,0 +1,502 @@
+@font-face{
+    font-family: 'BauProMedium';
+    src: url(fonts/329A31_0_0.woff2) format("woff2");
+}
+@font-face{
+    font-family: 'BauPro';
+     src: url(fonts/329A31_1_0.woff2) format("woff2");
+}
+
+@font-face{
+    font-family: 'Fugue';
+    src: url(fonts/fugue_regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: 'Fugue Tails';
+    src: url(fonts/font-cache.woff) format("woff");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+html, body{
+    width: 100%;
+}
+
+body{
+    background: linear-gradient(to right, rgb(207,179,173) , rgb(161,231,239));
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container-center{
+    position: relative;
+    width: 1366px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+header{
+    height: 230px;
+    width: 100%;
+    position: relative;
+}
+
+header .header-logo{
+    position: absolute;
+    top:70px;
+    left: 70px;
+
+    display: block;
+    width: 280px;
+    height: 280px;
+}
+
+header .header-title{
+    position: absolute;
+    bottom:70px;
+    right: 115px;
+    width: 220px;
+    height: 40px;
+}
+
+p{
+    margin: 18px 0;
+    font-family: BauPro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+
+.nav{
+    position: relative;
+}
+
+.nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding: 30px 70px;
+    margin: 0;
+}
+
+a, a:visited, a:link{
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.nav a{
+    font-family: 'BauPro';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+
+.nav li{
+    display: inline-block;
+    margin-right: 60px;
+}
+.nav li:last-child{
+    margin-right: 0;
+}
+
+.header-140{
+    margin: 0 0 140px 0;
+    font-family: 'Fugue Tails';
+    font-size: 60px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header-150{
+    text-align: center;
+    margin: 0 0 150px 0;
+    padding: 0 60px;
+
+    font-family: Fugue;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.3em;
+
+    color: #fff;
+}
+
+/*                     -------------------------------------------                 */
+
+.page-container{
+    width: 100%;
+    padding: 0 40px 0 25px;
+}
+
+.white{
+    background-color: #fff;
+    margin: 0 -40px 0 -25px;
+    padding: 0 40px 0 25px;
+}
+
+.page-article{
+    width: 100%;
+    padding: 160px 70px 70px 70px;
+}
+
+
+.text-wrapper{
+    width: 100%;
+    padding-left: 52.5%;
+}
+
+.text-wrapper h3{
+    margin: 0;
+
+    font-family: 'BauProMedium';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+.relative-block{
+    position: relative;
+    width: 100%;
+}
+
+.relative-block img{
+    display: block;
+}
+
+.relative-block h2{
+    font-family: Fugue;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
+/*                                     --------------- RELATIVE BLOCKS ---------------- block 1 START*/
+.relative-block.block-1{
+    margin-top: 16em;
+    position: relative;
+    margin-bottom: 5em;
+}
+
+.block-1 h2{
+    position: absolute;
+    top: -3em;
+    left: 70px;
+    width: calc(17.25888% + 39.59391% - 70px);
+    display: block;
+    margin: 0;
+}
+
+.block-1 h2:before{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -65px;
+    content: '';
+    width: 70px;
+    height: 70px;
+    background: url("img/hor-arrow.png") 0 0 no-repeat;
+    background-size: 70%;
+
+}
+
+.block-1 img:nth-child(2){
+    margin: 0 3.55% 0 43.14721%;;
+    width: 48.22335%;
+}
+
+.block-1 img:nth-child(3){
+    position: absolute;
+    width: 39.59391%;
+    top: 100px;
+    padding-top: 100px;
+    margin-left: 17.25888%;
+}
+/*                                     --------------- RELATIVE BLOCKS ---------------- block 1 END*/
+
+
+/*                                     --------------- RELATIVE BLOCKS ---------------- block 2 START*/
+.relative-block.block-2{
+    position: relative;
+    margin-top: 9.8em;
+    max-height: 590px;
+    overflow: hidden;
+    margin-bottom: -20px;
+}
+
+.block-2 img:nth-child(1){
+    margin: 0 3.5533% 0 0;
+    width: 39.59391%;
+}
+
+.block-2 img:nth-child(2){
+    position: absolute;
+    top: 90px;
+    width: 30.96447%;
+    margin-left: 69.03553%;
+}
+
+/*                                     --------------- RELATIVE BLOCKS ---------------- block 2 END*/
+
+
+/*                                     --------------- RELATIVE BLOCKS ---------------- block 3 START*/
+.relative-block.block-3{
+    margin-top: 8em;
+    margin-bottom: 7em;
+    position: relative;
+    width: 770px;
+    height: 310px;
+}
+
+.block-3 h2{
+    margin: 0;
+}
+/*                                     --------------- RELATIVE BLOCKS ---------------- block 3 END*/
+
+/*                                     --------------- RELATIVE BLOCKS ---------------- block 4 START*/
+.relative-block.block-4{
+    position: relative;
+    margin-bottom: 9em;
+}
+
+.block-4 img:nth-child(1){
+    margin: 0 3.55% 0 0;
+    width: 668.587px;
+    height: 470.844px;
+}
+
+.block-4 img:nth-child(2){
+    position: absolute;
+    width: 22.33503%;
+    bottom: 41px;
+    margin-left: 60.40609%;
+}
+/*                                     --------------- RELATIVE BLOCKS ---------------- block 4 END*/
+
+/*                                     --------------- RELATIVE BLOCKS ---------------- block 5 START*/
+.relative-block.block-5{
+    margin-top: 16em;
+    height: 700px;
+    position: relative;
+}
+
+.block-5 h2{
+    position: absolute;
+    top: -2.9em;
+    left: 70px;
+    width: 884px;
+    display: block;
+    margin: 0;
+}
+
+.block-5 img:nth-child(2){
+    margin: 0 3.55% 0 34.51777%;;
+    width: 465.609px;
+    height: 630.813px;
+}
+
+.block-5 img:nth-child(3){
+    position: absolute;
+    width: 22.33503%;
+    top: 162px;
+    margin-left: 69.03553%;
+}
+/*                                     --------------- RELATIVE BLOCKS ---------------- block 5 END*/
+
+
+.three-blocks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 41.8px;
+    margin-bottom: 6.1em;
+}
+
+.three-blocks .block{
+    text-align: center;
+    position: relative;
+}
+
+.three-blocks h3{
+    margin: 0 0 5.9em 0;
+    font-family: 'Fugue Tails';
+    font-size: 40px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.three-blocks h3:after{
+    display: block;
+    content: '';
+    position: absolute;
+    top: 4em;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    background: url('img/arrow-down.png') center center no-repeat;
+    background-size: 35%;
+
+}
+
+.block-link{
+    width: 100%;
+    margin: 40px 0 35px 0;
+    text-align: center;
+
+    font-family: BauProMedium;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+
+}
+
+
+.team-members{
+    padding: 0 10px;
+    margin: 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+
+    color: #fff;
+    text-align: center;
+}
+
+.team-members figure{
+    flex: 1 calc(100% / 3 - 62px);
+    padding: 31px;
+    margin: 0 0 31px 0;
+    overflow: hidden;
+}
+
+.team-members img{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.team-members h4{
+    margin: 25px 0 0 0;
+    font-family: BauProMedium;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+.team-members span{
+    font-family: BauPro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+
+
+.clients{
+    padding: 20px 20px 0 20px;
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+}
+
+.clients figure{
+    margin: 0 0 20px 0;
+    width: calc(100% / 3);
+    height: 305px;
+    text-align: center;
+}
+.clients img{
+    width: 250px;
+    height: auto;
+}
+
+footer a, footer a:link, footer a:visited,footer p, footer span, footer .nav a, .questions a{
+    color: #fff;;
+}
+
+.questions{
+    border-top: 3px solid #fff;
+    padding: 70px 0;
+    margin: 0 65px 0 40px;
+    text-align: center;
+    font-family: BauProMedium;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+footer{
+    width: 100%;
+    padding: 0 85px 0 60px;
+}
+
+.footer-info{
+    padding: 60px 0;
+    border-top: 1px solid #fff;
+}
+
+.footer-nav-home{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-decoration: none;
+    transform: translateY(-50%);
+}
+
+a.footer-nav-home{
+    font-family: Fugue;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.811em;
+}
+
+.footer-info .footer-contacts{
+    margin-bottom: 100px;
+
+    font-family: Fugue;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.811em;
+    padding-bottom: 4px;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 0.8fr;
+}
+
+.footer-contacts .column:last-child a{
+    text-decoration: none;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.footer-contacts .column:last-child a:last-child{
+    margin-right: 0;
+}
+
+
+.footer-info p{
+    margin-bottom: 0;
+    font-family: BauPro;
+    font-size: 18px;
+    line-height: 1.7em;
+}
+
+/*                     -------------------------------------------                 */
