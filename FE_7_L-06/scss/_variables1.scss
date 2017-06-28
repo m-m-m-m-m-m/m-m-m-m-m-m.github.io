@@ -1,0 +1,30 @@
+$body-font: normal 12px/18px Arial, Helvetica, sans-serif;
+
+$color-dark-0: #8b3e04;
+$color-dark-1: #ddbc9c;
+$color-light-0: #fadcba;
+$color-light-1: #e0e0e0;
+$color-light-2: #fff;
+
+$main-offset: 1.5em;
+
+$body-background: $color-dark-1;
+
+$content-background: $color-light-2;
+
+$header-color: $color-dark-0;
+$header-h2-style: italic;
+$header-h2-weight: 600;
+
+$img-padding: 3px;
+$img-margin: 0 0 $main-offset 0;
+$img-border: 2px solid $color-dark-0;
+
+$brief-block: $color-light-0;
+$brief-width: 35%;
+$brief-padding: $main-offset;
+
+$table-width: auto;
+$table-header: $color-light-1;
+$table-header-border: 1px solid $color-light-2;
+
