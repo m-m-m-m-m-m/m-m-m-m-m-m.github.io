@@ -1,0 +1,12 @@
+.img-main-wrapper{
+  @include responseImg(720,460);
+}
+
+.thumb{
+  position: relative;
+  width: 100%;
+
+  &-image{
+    @include responseImg(340, 200);
+  }
+}
