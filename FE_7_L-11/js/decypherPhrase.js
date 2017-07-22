@@ -8,5 +8,5 @@ function decypherPhrase(obj, str) {
     return cypherPhrase(revers_obj, str);
 }
 
-var charactersMap = {a:"o", c:"d", t:"g"};
-console.log(decypherPhrase( charactersMap,"kiggy dog" )); // -> “kitty cat”
+var charactersMap = {a: "o", c: "d", t: "g"};
+console.log(decypherPhrase(charactersMap, "kiggy dog")); // -> “kitty cat”

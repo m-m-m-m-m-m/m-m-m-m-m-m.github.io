@@ -4,5 +4,5 @@ function cypherPhrase(obj, str) {
     }).join('');
 }
 
-var charactersMap = {a:"o", c:"d", t:"g"};
-console.log(cypherPhrase( charactersMap,"kitty cat" )); // -> “kitty cat”
+var charactersMap = {a: "o", c: "d", t: "g"};
+console.log(cypherPhrase(charactersMap, "kitty cat")); // -> “kitty cat”

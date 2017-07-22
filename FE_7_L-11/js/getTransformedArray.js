@@ -10,5 +10,7 @@ function getTransformedArray(arr, fn) {
 }
 
 
-function increment(num){ return num + 1 } // just returns incremented number
-console.log(getTransformedArray( [1, 7, 20], increment )); // -> [ 2, 8, 21 ]
+function increment(num) {
+    return num + 1
+}
+console.log(getTransformedArray([1, 7, 20], increment)); // -> [ 2, 8, 21 ]
