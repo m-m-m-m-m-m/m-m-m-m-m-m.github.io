@@ -1,0 +1,31 @@
+body {
+    font-size: 18px;
+}
+
+.controls{
+    font-size: 2em;
+}
+
+.controls i{
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.controls i:hover{
+    cursor: pointer;
+    background-color: #39C2D7;
+}
+
+th[data-sortby]:hover{
+    cursor: pointer;
+}
+
+img.img-responsive{
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+
+form{
+    margin-bottom: 2em;
+}
