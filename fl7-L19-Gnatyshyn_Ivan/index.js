@@ -93,7 +93,7 @@ getJSON = (function () {
             mainView.innerHTML = `FOR: ${currentWheater.date}<br>
             temperature:    ${currentWheater.data.temperature}<br>
             wind power:     ${currentWheater.data.wind_power}<br>
-            wind direction:     ${currentWheater.data.wind_power}<br>`
+            wind direction:     ${currentWheater.data.wind_direction}<br>`
         }
 
         function updateArchiveDOM(archive) {
