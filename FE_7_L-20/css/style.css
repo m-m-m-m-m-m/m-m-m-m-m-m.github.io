@@ -6,67 +6,73 @@
 
 html, body{
     width: 100%;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
-body{
-    padding: 15%;
-    background-color: #ccc;
+body {
     user-select: none;
 }
 
-ul{
-    list-style: none;
-}
-li[data-btn]{
-    cursor: pointer;
-
-    width: 100%;
-    margin: 1em 0;
-    border-radius: 0.5em;
-    text-align: center;
-    border: 2px solid cyan;
-    color: cyan;
-    padding: 1.5em 1em;
-    font-family: arial, sans-serif;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-li[data-btn]:hover{
-    color: #454647;
-    background-color: cyan;
-}
-
 .container{
-    background-color: #fff;
     padding: 1em 2em;
 }
 
 .game-container{
     position: relative;
-    padding: 0 2em;
+    max-width: 320px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .main-box{
     margin: 2em 0 ;
     border-radius: 0.5em;
-    border: 1px solid blueviolet;
     position: relative;
-
 }
 
+ul{
+    list-style: none;
+}
 
+li[data-btn]{
+    cursor: pointer;
+    width: 100%;
+    margin: 1em 0;
+    border-radius: 0.5em;
+    text-align: center;
+    border: 2px solid #51e3c2;
+    color: cyan;
+    padding: 1.2em 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
 
+li[data-btn]:hover:not(.active), li[data-btn].active{
+    color: #4b4b4b;
+    background-color: #51e3c2;;
+}
 
 .figure-box{
-    border-radius: 0.5em;
+    border-radius: 0.25em;
     border: 2px solid rgba(0,0,0,0);
-    background-color: rgba(26, 76, 188, 0.61);
+    background-color: #4b91e2;
     color: #fff;
-    font-size: 2em;
+
     text-align: center;
     white-space: nowrap;
     position: absolute;
+    font-size: 50px;
+    line-height: 70px;
+    z-index: 2;
+}
+
+.figure-box-background{
+    border-radius: 0.5em;
+    border: 2px solid rgba(0,0,0,0);
+    background-color: #ededed;
+    pointer-events: none;
+    position: absolute;
+    z-index: 1;
 }
 
 .figure-box.animation{
@@ -78,3 +84,34 @@ li[data-btn]:hover{
     cursor: pointer;
 }
 
+header{
+    color: #b3b3b3;
+    font-size: 1.2em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.time,.steps{
+    color: #818181;
+    font-size: 2.2em;
+}
+
+.time:before, .steps:before{
+    content: ' ';
+    background-size: 100%;
+    display: inline-block;
+    position: relative;
+    top:5px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.time:before{
+    background-image: url('../images/time.svg');
+}
+
+.steps:before{
+    background-image: url('../images/steps.svg');
+}

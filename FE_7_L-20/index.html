@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> JQuery HM </title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
 
 <div class="container">
-    <header>
-        <div class="timer">
-
-        </div>
-        <div class="counter">
-
-        </div>
-    </header>
-
     <div class="game-container">
+        <header>
+            <div class="timing">
+                TIME<br>
+                <span class="time"></span>
+            </div>
+            <div class="counting">
+                STEPS<br>
+                <span class="steps"></span>
+            </div>
+        </header>
         <div class="main-box"></div>
         <div class="game-controls">
             <ul>
@@ -29,12 +31,9 @@
     </div>
 
 
-    </div>
-
 </div>
 
-<script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
 
