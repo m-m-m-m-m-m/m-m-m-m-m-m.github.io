@@ -6,7 +6,7 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin")
 const StyleLintPlugin = require('stylelint-webpack-plugin');
 
 module.exports = {
-    devtool: 'inline-source-map',
+    devtool: 'source-map',
     context: __dirname + '/app/src',
     entry: './app',
     output: {
@@ -67,7 +67,8 @@ module.exports = {
             minimize: true,
             compress: {
                 warnings: false
-            }
+            },
+            sourceMap: true
         })
     ]
 };
