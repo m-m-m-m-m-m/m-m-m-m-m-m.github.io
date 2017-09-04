@@ -1,0 +1,10 @@
+@import 'variables';
+
+.body{
+    width: 100%;
+}
+
+.container{
+    border: $border;
+    background-color: $yellow;
+}
