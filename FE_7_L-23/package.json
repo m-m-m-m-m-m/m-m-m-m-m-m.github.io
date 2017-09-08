@@ -1,0 +1,16 @@
+{
+  "name": "module-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "webpack --config webpack.config.js --display-error-details"
+  },
+  "author": "",
+  "license": "ISC"
+}
